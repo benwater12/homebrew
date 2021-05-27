@@ -1,0 +1,147 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "TempestJiang",
+			"abbreviation": "Brew",
+			"full": "TempestJiang",
+			"authors": [
+				"TempestJiang"
+			],
+			"version": "1.0.0",
+			"url": "https://github.com/TheGiddyLimit/homebrew",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "覺醒史萊姆",
+		"source": "TempestJiang",
+		"ability": [{
+			"con": 1,
+			"choose": {
+				"from": [
+					"str",
+					"dex",
+					"con",
+					"int",
+					"wis",
+					"cha"
+				],
+				"count": 1,
+				"amount": 1
+			}
+		}],
+		"size": [
+			"M"
+		],
+		"speed": 30,
+		"darkvision": 60,
+
+		"entries": [{
+				"type": "entries",
+				"name": "軟泥天性",
+				"entries": [
+					"你對消化性的疾病和毒素免疫。你不需要睡眠，取而代之，你會以4小時的低活動狀態代替8小時睡眠，在這段時間你只能用盲視觀察周遭。"
+				]
+			},
+			{
+				"name": "盲視",
+				"entries": [
+					"你不需要眼睛來視物，同時被 {@condition blinded}時，依然可以使用這個感官。你可以這個感官察覺周遭 30 呎，但是無法辨識出顏色。"
+				],
+				"type": "entries"
+			},
+			{
+				"name": "黑暗視覺",
+				"entries": [
+					"你在看距離你60呎範圍內的事物時，微光的照明程度對你而言視作明亮，黑暗則視作微光。"
+				],
+				"type": "entries"
+			},
+			{
+				"name": "語言",
+				"entries": [
+					" 你可以說、讀、寫通用語以及一個選擇的語言。"
+				],
+				"type": "entries"
+			},
+			{
+				"name": "變形者",
+				"entries": [
+					" 不定型態和蛛行，只能在變成軟泥生物時使用，可以用一個動作切換型體，變型這段時間你不能使用武器。"
+				],
+				"type": "entries"
+			},
+			{
+				"name": "不定型態",
+				"entries": [
+					" 你可以移動穿越最窄1吋的狹窄空間而不用擠縮身體。"
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "蛛行",
+				"entries": [
+					"你可以攀爬困難地形,包含上下顛倒的天花板,不需要做能力檢定."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [{
+					"name": "異樣的來源",
+					"entries": [
+						"謠傳這些史萊姆原本是類人生物，但是因為神明的憤怒而變成了有智商的史萊姆，在不知道過了多久以後，鱗葉協助他們獲得變型的能力。"
+					]
+
+				},
+				{
+					"name": "史萊姆本質",
+					"entries": [
+						"即使擁有和類人生物相似的智商，這些生物還是被史萊姆想要吃東西的本能誘惑者。"
+					]
+				},
+				{
+					"name": "下一世的輪迴",
+					"entries": [
+						"這些史萊姆差不多每固定一段時間或是死亡時，就要對於類人外型時的記憶進行重製，將所有的記憶存到家鄉的一個魔法地點中，並且在該地點重生。"
+						,"這個史萊姆對於之前發生的事情只剩朦朧的印象， 除了幾個重要的記憶點和人物， 但是只要回到家鄉搜尋， 可以從客觀的角度看到所有記憶的內容。"
+					]
+				},
+				{
+					"name": "無限多的可能性",
+					"entries": [
+						"雖然是同一個個體，但是每一次經過記憶消除之後他們會自己選不一樣的職業和特色，只是靈魂和大致個性還是同一個體。"
+					]
+				},
+				{
+					"name": "最原始的型態",
+					"entries": [
+						"這些史萊姆有一個自己在被詛咒之前的型態，這也是被他們稱做最初的本體，這個本體的外型不會進行記憶重製。", "只是萬一這個本體型態遭到擊殺之後， 這個史萊姆就無法活動數百年， 直到這個人格的資訊被拼湊回來。 "
+					]
+				}
+
+			]
+		},
+		"traitTags": [
+			"Improved Resting",
+			"Blindsight",
+			"Rare Race",
+			"Shapechanger"
+		],
+		"languageProficiencies": [{
+			"common": true,
+			"anyStandard": 1
+		}],
+		"weaponProficiencies": [{
+			"rapier|phb": false,
+			"shortsword|phb": false,
+			"hand crossbow|phb": false
+		}],
+		"toolProficiencies": [{
+			"Smith's Tools|phb": false
+		}]
+
+	}]
+}
